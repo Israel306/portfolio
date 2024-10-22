@@ -8,14 +8,13 @@ export default function Nav() {
   };
 
   return (
-    <nav className=" border-gray-200 bg-slate-100">
-      <div className="container-w flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav className="border-gray-200 bg-slate-100 ">
+      <div className="container-w mx-auto flex flex-wrap items-center justify-between p-4">
         <span className="self-center text-3xl font-bold whitespace-nowrap text-[#000033]">
           Israel <span className="font-black dark:text-red-500">.</span>
         </span>
 
         <button
-          data-collapse-toggle="navbar-default"
           type="button"
           className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
           aria-controls="navbar-default"
@@ -39,35 +38,36 @@ export default function Nav() {
             />
           </svg>
         </button>
+
         <div
           className={`w-full ${
             isMenuOpen ? "block" : "hidden"
           } md:flex md:items-center md:w-auto gap-10`}
           id="navbar-default"
         >
-          <ul className="font-bold flex flex-col p-4 md:p-0 mt-4 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 ">
+          <ul className="font-bold flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
             <li>
-              <a href="#" className="block py-2 px-3 text-[#000033]">
+              <a href="#about-me" className="block py-2 px-3 text-[#000033]">
                 About Me
               </a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 text-[#000033]">
+              <a href="#skills" className="block py-2 px-3 text-[#000033]">
                 Skills
               </a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 text-[#000033]">
+              <a href="#projects" className="block py-2 px-3 text-[#000033]">
                 Projects
               </a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 ttext-[#000033]">
+              <a href="#experience" className="block py-2 px-3 text-[#000033]">
                 Experience
               </a>
             </li>
             <li>
-              <a href="#" className="block py-2 px-3 ttext-[#000033]">
+              <a href="#education" className="block py-2 px-3 text-[#000033]">
                 Education
               </a>
             </li>
