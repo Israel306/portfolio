@@ -51,9 +51,15 @@ function App() {
                 data, AI, and advanced analytics to solve challenges in
                 healthcare, education, and business.
               </p>
-              <button className="mt-8 px-6 py-2 rounded-lg border-2 border-[#000033] bg-[#000033] text-white hover:bg-white hover:text-[#000033] transition-all">
-                Resume
-              </button>
+              <a
+                href="https://drive.google.com/file/d/1WDGjgKrO0X24YWGHFaIqWDh39RDc872y/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="mt-8 px-6 py-2 rounded-lg border-2 border-[#000033] bg-[#000033] text-white hover:bg-white hover:text-[#000033] transition-all">
+                  Resume
+                </button>
+              </a>
             </div>
 
             {/* Right Section */}
