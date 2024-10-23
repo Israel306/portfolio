@@ -12,6 +12,8 @@ import hiit from "./assets/hiit.jpeg";
 import zealluck from "./assets/zealluck.jpg";
 import mothvid from "./assets/mothvid.mp4";
 import axessvid from "./assets/axessvid.mp4";
+import tracker from "./assets/tracker.mp4";
+import mothapp from "./assets/mothapp.mp4";
 import Skills from "./components/skills";
 import Projects from "./components/projects";
 import AccordionItem from "./components/AccordionItem";
@@ -49,7 +51,7 @@ function App() {
                 data, AI, and advanced analytics to solve challenges in
                 healthcare, education, and business.
               </p>
-              <button className="mt-8 px-6 py-3 rounded-lg border-2 border-[#000033] bg-[#000033] text-white hover:bg-white hover:text-[#000033] transition-all">
+              <button className="mt-8 px-6 py-2 rounded-lg border-2 border-[#000033] bg-[#000033] text-white hover:bg-white hover:text-[#000033] transition-all">
                 Resume
               </button>
             </div>
@@ -126,33 +128,46 @@ function App() {
                 name="Moth Web App"
                 video={mothvid}
                 content="This app offers banking services like transfers, wallet top-ups, card services for online transactions, and currency rate conversion."
+                gitlink="https://github.com/Israel306/mothproject"
+                demolink="https://mothproject-nu.vercel.app"
               />
               <Projects
-                name="Front-End"
-                video={mothvid}
-                content="Html, css, JavaScript, Reactjs, Tailwind, Bootstrap, Flutter"
+                name="Performance Tracker"
+                video={tracker}
+                content="Collaborating with the team in developing a management information system  for SAMTL that integrates machine learning to help track the performance of different operations within the company."
+                gitlink="/"
+                demolink="https://samtl-mis.vercel.app/"
               />
               <Projects
                 name="Axess Web Banking"
                 video={axessvid}
                 content="This app offers banking services like transfers, wallet top-ups, card services for online transactions, and currency rate conversion."
+                gitlink="https://github.com/Israel306/Acces2Cash"
+                demolink="https://acces2-cash.vercel.app/"
               />
             </div>
             <div className="mt-10 flex flex-col md:flex-row justify-between gap-5 w-[100%]">
               <Projects
-                name="Moth Web App"
-                video={mothvid}
+                name="Moth Mobile App"
+                video={mothapp}
                 content="This app offers banking services like transfers, wallet top-ups, card services for online transactions, and currency rate conversion."
+                gitlink="/"
+                demolink="/"
+                videoPosition="object-contain"
               />
               <Projects
                 name="Front-End"
                 video={mothvid}
                 content="Html, css, JavaScript, Reactjs, Tailwind, Bootstrap, Flutter"
+                gitlink="/"
+                demolink="/"
               />
               <Projects
                 name="Axess Web Banking"
                 video={axessvid}
                 content="This app offers banking services like transfers, wallet top-ups, card services for online transactions, and currency rate conversion."
+                gitlink="/"
+                demolink="/"
               />
             </div>
           </section>

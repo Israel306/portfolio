@@ -9,7 +9,7 @@ const SocialIcons = () => {
       <ul className="flex flex-col space-y-4">
         <li>
           <a
-            href="https://facebook.com"
+            href="mailto:israelogundele306@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-red-600 hover:text-red-800 transition"
@@ -19,7 +19,7 @@ const SocialIcons = () => {
         </li>
         <li>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/ogundele-israel-b490701bb/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-700 hover:text-blue-900 transition"
@@ -29,7 +29,7 @@ const SocialIcons = () => {
         </li>
         <li>
           <a
-            href="https://github.com"
+            href="https://github.com/Israel306"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-800 hover:text-gray-900 transition"
@@ -39,7 +39,7 @@ const SocialIcons = () => {
         </li>
         <li>
           <a
-            href="https://twitter.com"
+            href="https://x.com/OgundeleIsrael2"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-400 hover:text-blue-600 transition"
