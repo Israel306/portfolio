@@ -14,6 +14,7 @@ import mothvid from "./assets/mothvid.mp4";
 import axessvid from "./assets/axessvid.mp4";
 import tracker from "./assets/tracker.mp4";
 import mothapp from "./assets/mothapp.mp4";
+import hillpost from "./assets/hillpost.mp4";
 import Skills from "./components/skills";
 import Projects from "./components/projects";
 import AccordionItem from "./components/AccordionItem";
@@ -57,7 +58,7 @@ function App() {
                 rel="noopener noreferrer"
               >
                 <button className="mt-8 px-6 py-2 rounded-lg border-2 border-[#000033] bg-[#000033] text-white hover:bg-white hover:text-[#000033] transition-all">
-                  Resume
+                  My CV
                 </button>
               </a>
             </div>
@@ -169,11 +170,12 @@ function App() {
                 demolink="/"
               />
               <Projects
-                name="Axess Web Banking"
-                video={axessvid}
-                content="This app offers banking services like transfers, wallet top-ups, card services for online transactions, and currency rate conversion."
-                gitlink="/"
-                demolink="/"
+                name="Hillpost App"
+                video={hillpost}
+                content="This app offers banking services like online transactions, mobile top-up, payment of utilities bill, and many more."
+                gitlink="https://hillpostmfb.com/"
+                demolink="https://play.google.com/store/apps/details?id=com.hillpostbank.mfb&pli=1"
+                videoPosition="object-contain"
               />
             </div>
           </section>
