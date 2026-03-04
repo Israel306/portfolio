@@ -96,21 +96,21 @@ function App() {
   content="React, Flutter, Dart, JavaScript (ES6+), Tailwind CSS, GetX"
 />
               <Skills
-  name="Programming"
-  image={script}
-  content="Python, JavaScript, SQL, Object-Oriented Programming, Data Structures & Algorithms"
-/>
-             <Skills
-  name="Tools & Collaboration"
-  image={control}
-  content="Git, GitHub, Postman, Docker, VS Code, Android Studio"
-/>
+                name="Programming and scripting"
+                image={script}
+                content="Python, JavaScript, Object oriented programming, Data structures and algorithms"
+              />
+              <Skills
+                name="Version Control / Collaboration"
+                image={control}
+                content="Git, Github, Slack, Teams, Trello"
+              />
 
-             <Skills
-  name="Data & Research"
-  image={script}
-  content="Pandas, NumPy, Power BI, Excel, LaTeX, SPSS"
-/>
+              <Skills
+                name="Others"
+                image={script}
+                content="Vscode, Android Studio PostMan, Docker, MS Excel, MS PowerPoint, MS Word, LaTeX"
+              />
             </div>
           </section>
 
@@ -137,12 +137,13 @@ function App() {
                 video={mothvid}
                 content="This app offers banking services like transfers, wallet top-ups, card services for online transactions, and currency rate conversion."
                 gitlink="https://github.com/Israel306/mothproject"
-
+                demolink=""
               />
               <Projects
                 name="Performance Tracker"
                 video={tracker}
                 content="Collaborating with the team in developing a management information system  for SAMTL that integrates machine learning to help track the performance of different operations within the company."
+                gitlink=""
                 demolink="https://samtl-mis.vercel.app/"
               />
               <Projects
@@ -150,6 +151,7 @@ function App() {
                 video={axessvid}
                 content="This app offers banking services like transfers, wallet top-ups, card services for online transactions, and currency rate conversion."
                 gitlink="https://github.com/Israel306/Acces2Cash"
+                demolink=""
               />
             </div>
             <div className="mt-10 flex flex-col md:flex-row justify-between gap-5 w-[100%]">
@@ -157,12 +159,16 @@ function App() {
                 name="Moth Mobile App"
                 video={mothapp}
                 content="This app offers banking services like transfers, wallet top-ups, card services for online transactions, and currency rate conversion."
+                gitlink=""
+                demolink=""
                 videoPosition="object-contain"
               />
               <Projects
                 name="Front-End"
                 video={mothvid}
                 content="Html, css, JavaScript, Reactjs, Tailwind, Bootstrap, Flutter"
+                gitlink=""
+                demolink=""
               />
               <Projects
                 name="Hillpost App"

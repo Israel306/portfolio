@@ -137,7 +137,7 @@ function App() {
                 video={mothvid}
                 content="This app offers banking services like transfers, wallet top-ups, card services for online transactions, and currency rate conversion."
                 gitlink="https://github.com/Israel306/mothproject"
-
+                demolink=""
               />
               <Projects
                 name="Performance Tracker"
@@ -150,6 +150,7 @@ function App() {
                 video={axessvid}
                 content="This app offers banking services like transfers, wallet top-ups, card services for online transactions, and currency rate conversion."
                 gitlink="https://github.com/Israel306/Acces2Cash"
+                demolink=""
               />
             </div>
             <div className="mt-10 flex flex-col md:flex-row justify-between gap-5 w-[100%]">
@@ -157,12 +158,16 @@ function App() {
                 name="Moth Mobile App"
                 video={mothapp}
                 content="This app offers banking services like transfers, wallet top-ups, card services for online transactions, and currency rate conversion."
+                gitlink=""
+                demolink=""
                 videoPosition="object-contain"
               />
               <Projects
                 name="Front-End"
                 video={mothvid}
                 content="Html, css, JavaScript, Reactjs, Tailwind, Bootstrap, Flutter"
+                gitlink=""
+                demolink=""
               />
               <Projects
                 name="Hillpost App"

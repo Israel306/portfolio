@@ -163,6 +163,8 @@ function App() {
                 name="Front-End"
                 video={mothvid}
                 content="Html, css, JavaScript, Reactjs, Tailwind, Bootstrap, Flutter"
+                gitlink=""
+                demolink=""
               />
               <Projects
                 name="Hillpost App"
